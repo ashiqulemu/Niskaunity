@@ -8862,3 +8862,7 @@ input#footer-subscribe {
 .owl-nav{
 	display: none;
 }
+
+#intro{
+	pointer-events: none;
+}
