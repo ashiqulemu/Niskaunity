@@ -568,7 +568,7 @@ p {
 	width: 25px;
 }
 .menu-str .top-animate {
-	background: #111;
+	background: #ffffff;
 	top: 7px;
 	width: 32px !important;
 	-webkit-transform: rotate(45deg);
@@ -581,7 +581,7 @@ p {
 	opacity: 0; 
 }
 .menu-str .bottom-animate {
-	background: #111;
+	background: #ffffff;
 	top: 7px;
 	width: 32px !important;
 	-webkit-transform: rotate(-225deg);
