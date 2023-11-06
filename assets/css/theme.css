@@ -2058,7 +2058,7 @@ section {
 		transform: translate(0, 0) !important;
 	}
 	.pli-title {
-		display: inline !important;
+		display: none !important;
 		background-color: #E8000B !important;
 		margin-bottom: 5px !important;
 		font-size: 18px !important;
@@ -2066,7 +2066,7 @@ section {
 		color: #000 !important;
 	}
 	.pli-category {
-		display: inline !important;
+		display: none !important;
 		background-color: #111 !important;
 		margin: 0 !important;
 		font-style: italic !important;
@@ -8869,4 +8869,8 @@ input#footer-subscribe {
 }
 .portfolio-list-item:hover .pli-hover {
 	opacity: 0;
+}
+
+.pli-title{
+	 
 }
