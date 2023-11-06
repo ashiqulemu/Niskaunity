@@ -1147,7 +1147,7 @@ section {
 /* ------------------------------------------------------------- */
 
 #intro {
-	min-height: 300px;
+	/* min-height: 300px; */
 	overflow: hidden;
 }
 
@@ -1492,6 +1492,7 @@ section {
 .isotope-item {
 	float: left;
 	width: 25%;
+	outline: 5px solid black;
 }
 
 /* isotope last item (it makes last item to 100% wide) */
@@ -8889,12 +8890,16 @@ input#footer-subscribe {
 }
 
 @media(max-width:768px){
-	#intro{	
-		min-height: 183px;
-		max-height: 183px;
-	} 
+	 
 	#logo{
 		text-align: unset;
+	}
+}
+
+@media(max-width:650px){
+	 
+	.owl-carousel {
+		height: 186px;
 	}
 }
  
