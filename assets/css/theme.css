@@ -8068,9 +8068,8 @@ label {
 	border-color: #E8000B;
 }
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open > .dropdown-toggle.btn-primary {
-	color: #333;
-	background-color:#EFD900;
-	border-color: #EFD900;
+	color: #fff;
+	background-color:#000; 
 }
 .btn-primary.btn-link {
 	color:#fff;
