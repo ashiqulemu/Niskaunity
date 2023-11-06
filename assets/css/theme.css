@@ -87,6 +87,12 @@
  *  General
 /* ------------------------------------------------------------- */
 
+
+@font-face {
+	font-family: 'history-book';
+	src: url(../fonts/ART\ HISTORY\ BOOK.otf);
+}
+
 html {
 	padding: 0;
 	margin: 0;
@@ -268,13 +274,15 @@ p {
 
 #logo {
 	position: absolute;
-	margin-top: 3%;
-	left: 3%;
+    margin-top: 3%;
+    left: 0; 
+    width: 100%;
+    right: 0;
+    text-align: center;
+	padding: 0 17px;
 }
-@media (max-width: 768px) {
-	#logo {
-	}
-}
+
+
 
 
 /* ------------------------------------------------------------- *
@@ -8870,6 +8878,23 @@ input#footer-subscribe {
 	opacity: 0;
 }
 
-.pli-title{
-	 
+.owl-carousel {
+    height: 500px;
 }
+
+.brand-logo{
+	color: red;
+	font-family: 'history-book';
+	font-size: 4rem;
+}
+
+@media(max-width:768px){
+	#intro{	
+		min-height: 183px;
+		max-height: 183px;
+	} 
+	#logo{
+		text-align: unset;
+	}
+}
+ 
