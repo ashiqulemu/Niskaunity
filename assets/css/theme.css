@@ -1941,17 +1941,17 @@ section {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: #E8000B;
-	opacity: 0;
+	/* background-color: #E8000B; */
+	opacity: 1;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-.portfolio-list-item:hover .pli-hover {
+/* .portfolio-list-item:hover .pli-hover {
 	opacity: .94;
-}
+} */
 
 /* portfolio list item caption */
 .pli-caption {
@@ -1960,7 +1960,7 @@ section {
 	left: 10%;
 	right: 20%;
 	margin-bottom: -7px;
-	opacity: 0;
+	opacity: 1;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -2003,10 +2003,13 @@ section {
 /* portfolio list item caption alternative style */
 .pli-caption-alter .pli-caption .pli-title {
 	display: inline;
-	background-color: #222;
-	padding: 0 3px;
-	font-weight: 400;
-	color: #FFF;
+    background-color: #ffffff;
+    padding: 4px 11px;
+    font-weight: 400;
+    color: #ff2323;
+    border-radius: 4px;
+    -webkit-text-stroke: 1px #080808;
+    font-size: 3.3rem;
 }
 
 /* portfolio list item arrow */
@@ -2029,6 +2032,7 @@ section {
 	-o-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	display: none;
 }
 .portfolio-list-item:hover .pli-arrow {
 	opacity: 1;
@@ -2064,20 +2068,18 @@ section {
 		right: 15px !important;
 		margin-bottom: 0 !important;
 		opacity: 1 !important;
-		text-align: left !important;
+		text-align: center !important;
 		color: #EEE !important;
 		-moz-transform: translate(0, 0) !important;
 		-ms-transform: translate(0, 0) !important;
 		-webkit-transform: translate(0, 0) !important;
 		transform: translate(0, 0) !important;
 	}
-	.pli-title {
-		display: none !important;
-		background-color: #E8000B !important;
-		margin-bottom: 5px !important;
+	
+	.pli-caption-alter .pli-caption .pli-title{
+		 
 		font-size: 18px !important;
-		font-weight: 700 !important;
-		color: #000 !important;
+		-webkit-text-stroke: 0; 
 	}
 	.pli-category {
 		display: none !important;
@@ -8880,9 +8882,7 @@ input#footer-subscribe {
 #intro{
 	pointer-events: none;
 }
-.portfolio-list-item:hover .pli-hover {
-	opacity: 0;
-}
+ 
 
 .owl-carousel {
     /* height: 500px; */
@@ -8903,6 +8903,10 @@ input#footer-subscribe {
 
 .cc-item.parallax.bg-image{
 	height: fit-content!important;
+}
+
+.pli-caption div{
+	text-align: center;
 }
 
 @media(max-width:650px){
