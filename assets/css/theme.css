@@ -1957,8 +1957,8 @@ section {
 .pli-caption {
 	position: absolute;
 	bottom: 10%;
-	left: 10%;
-	right: 20%;
+	left: 0;
+	right: 0;
 	margin-bottom: -7px;
 	opacity: 1;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -2003,13 +2003,13 @@ section {
 /* portfolio list item caption alternative style */
 .pli-caption-alter .pli-caption .pli-title {
 	display: inline;
-    background-color: #ffffff;
+    background-color: #ddddddbd;
     padding: 4px 11px;
     font-weight: 400;
     color: #ff2323;
     border-radius: 4px;
     -webkit-text-stroke: 1px #080808;
-    font-size: 3.3rem;
+    font-size: 5rem;
 }
 
 /* portfolio list item arrow */
