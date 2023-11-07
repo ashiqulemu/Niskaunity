@@ -273,12 +273,12 @@ p {
 /* --------------------------------------------------- */
 
 #logo {
-	position: absolute;
+	position: fixed;
     margin-top: 3%;
     left: 0; 
     width: 100%;
     right: 0;
-    text-align: center;
+    /* text-align: center; */
 	padding: 0 17px;
 }
 
@@ -1146,9 +1146,9 @@ section {
  * Intro
 /* ------------------------------------------------------------- */
 
-#intro {
-	/* min-height: 300px; */
+#intro { 
 	overflow: hidden;
+	border-bottom: 5px solid black;
 }
 
 /* Intro caption */
@@ -8888,13 +8888,13 @@ input#footer-subscribe {
 	font-family: 'history-book';
 	font-size: 4rem;
 }
-
+/* 
 @media(max-width:768px){
 	 
 	#logo{
 		text-align: unset;
 	}
-}
+} */
 
 @media(max-width:650px){
 	 
