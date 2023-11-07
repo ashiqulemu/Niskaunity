@@ -93,6 +93,11 @@
 	src: url(../fonts/ART\ HISTORY\ BOOK.otf);
 }
 
+@font-face {
+	font-family: 'go-bear';
+	src: url(../fonts/Go\ Bear.ttf);
+}
+
 html {
 	padding: 0;
 	margin: 0;
@@ -104,7 +109,7 @@ body {
 	background-color: #FFF;
 	padding: 0;
 	margin: 0;
-	font-family: 'Ubuntu Mono', Helvetica, Arial, sans-serif;
+	font-family: 'go-bear';
 	line-height: 1.5;
 	font-size: 17px;
 	color: #333;
