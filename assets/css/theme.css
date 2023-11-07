@@ -8788,9 +8788,7 @@ input#footer-subscribe {
 }
 
 /* footer logo */
-.footer-logo {
-	margin: 60px 0;
-}
+
 .footer-logo img {
 }
 
@@ -8865,11 +8863,7 @@ input#footer-subscribe {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-@media (max-width: 768px) {
-	.scrolltotop  {
-		display: none;
-	}
-}
+
 .scrolltotop:hover {
 	background-color: #E8000B;
 	color: #000;
@@ -8897,13 +8891,7 @@ input#footer-subscribe {
 	font-family: 'history-book';
 	font-size: 4rem;
 }
-/* 
-@media(max-width:768px){
-	 
-	#logo{
-		text-align: unset;
-	}
-} */
+ 
 
 .cc-item.parallax.bg-image{
 	height: fit-content!important;
@@ -8911,6 +8899,14 @@ input#footer-subscribe {
 
 .pli-caption div{
 	text-align: center;
+}
+@media (max-width: 768px) {
+	.scrolltotop  {
+		display: none;
+	}
+	.footer-logo {
+		margin: 60px 0;
+	}
 }
 
 @media(max-width:650px){
