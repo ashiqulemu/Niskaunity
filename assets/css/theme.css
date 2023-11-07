@@ -1148,7 +1148,7 @@ section {
 
 #intro { 
 	overflow: hidden;
-	border-bottom: 5px solid black;
+	border-bottom: 15px solid #ffffff;
 }
 
 /* Intro caption */
@@ -1208,7 +1208,7 @@ section {
 /* if intro contains slideshow */
 #intro.owl-carousel .cc-item {
 	/* height handled by "theme.js" file */
-	min-height: 300px;
+	/* min-height: 300px; */
 }
 
 
@@ -1312,7 +1312,7 @@ section {
 /* if page header contains a slideshow */
 #page-header.slideshow .cc-item {
 	/* height handled by "theme.js" file */
-	min-height: 300px;
+	/* min-height: 300px; */
 }
 
 
@@ -1492,7 +1492,7 @@ section {
 .isotope-item {
 	float: left;
 	width: 25%;
-	outline: 5px solid black;
+	outline: 5px solid #fff;
 }
 
 /* isotope last item (it makes last item to 100% wide) */
@@ -6562,7 +6562,7 @@ input.cart-plus-minus-box:focus {
 	overflow: hidden;
 }
 .owl-carousel .cc-item.bg-image { /* if CC item contains background image */
-	min-height: 300px;
+	/* min-height: 300px; */
 }
 
 /* CC caption */
@@ -8880,7 +8880,7 @@ input#footer-subscribe {
 }
 
 .owl-carousel {
-    height: 500px;
+    /* height: 500px; */
 }
 
 .brand-logo{
@@ -8895,6 +8895,10 @@ input#footer-subscribe {
 		text-align: unset;
 	}
 } */
+
+.cc-item.parallax.bg-image{
+	height: fit-content!important;
+}
 
 @media(max-width:650px){
 	 
