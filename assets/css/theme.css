@@ -8909,7 +8909,8 @@ input#footer-subscribe {
 	}
 	#logo {
 		left: 10px;
-		margin-top: 5.8%;
+		margin-top: 3.8%;
+		padding: 7px;
 	}
 	#logo img{
 		height: 33px;
