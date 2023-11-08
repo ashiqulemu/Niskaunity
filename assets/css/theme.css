@@ -1152,8 +1152,7 @@ section {
 /* ------------------------------------------------------------- */
 
 #intro { 
-	overflow: hidden;
-	border-bottom: 15px solid #ffffff;
+	overflow: hidden; 
 }
 
 /* Intro caption */
@@ -8900,6 +8899,10 @@ input#footer-subscribe {
 .pli-caption div{
 	text-align: center;
 }
+
+video{
+	border-bottom: 25px solid red; 
+}
 @media (max-width: 768px) {
 	.scrolltotop  {
 		display: none;
@@ -8922,5 +8925,12 @@ input#footer-subscribe {
 	.owl-carousel {
 		height: 186px;
 	}
+	#intro{
+		padding-top: 73px;
+	}
+
+	 
 }
+
+ 
  
