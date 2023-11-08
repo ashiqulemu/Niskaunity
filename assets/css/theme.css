@@ -8918,6 +8918,9 @@ video{
 	#logo img{
 		height: 33px;
 	}
+	video{
+		border-bottom: unset; 
+	}
 }
 
 @media(max-width:650px){
