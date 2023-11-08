@@ -8903,6 +8903,10 @@ input#footer-subscribe {
 video{
 	border-bottom: 25px solid red; 
 }
+
+#gallery-single-section .isotope-item{
+	outline: 0;
+}
 @media (max-width: 768px) {
 	.scrolltotop  {
 		display: none;
