@@ -87,6 +87,9 @@
  *  General
 /* ------------------------------------------------------------- */
 
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
 
 @font-face {
 	font-family: 'history-book';
@@ -8973,6 +8976,63 @@ video{
    text-decoration: none;
 } 
 
+.subListing {
+	padding: 50px 0;
+}
+.subListing .singleItems{
+	display: flex;
+    padding: 14px;
+    /* border-radius: 11px; */
+    border-bottom: 1px solid #e7e4e4;
+    background: linear-gradient(277deg, rgba(255, 253, 220, 0.27), transparent);
+}
+
+.subListing .singleItems .brand{
+	width: 160px; 
+	text-align: center;
+}
+
+.subListing .singleItems .brand img{
+	width: auto;
+    max-height: 90px; 
+}
+
+.subListing .singleItems .middle{
+	flex: 4; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	padding-left: 15px;
+    border-right: 1px dashed #ddd2d2;
+    border-left: 1px dashed #ddd2d2;
+}
+
+.subListing .singleItems .middle .title{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.4;
+}
+
+.subListing .singleItems .middle .subtitle{
+	font-size: 14px; 
+}
+
+.subListing .singleItems .right{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+	align-items: center;
+}
+.subListing .singleItems .right .title{
+	font-size: 16px;  
+}
+.subListing .singleItems .right .subtitle{
+	font-size:16px;  
+}
+
+ 
+
 @media (max-width: 992px) {
 	.business-list .box-container{ 
 		justify-content: center; 
@@ -8981,6 +9041,14 @@ video{
 	}
 }
 @media (max-width: 768px) {
+	.singleItems{
+		flex-direction: column;
+    align-items: center;
+	row-gap:15px;
+	}
+	.subListing .singleItems .middle{
+		border: 0;
+	}
 	.scrolltotop  {
 		display: none;
 	}
