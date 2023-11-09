@@ -8913,6 +8913,74 @@ video{
 #gallery-single-section .isotope-item{
 	outline: 0;
 }
+
+
+.business-list{
+	padding: 60px 0;
+}
+
+.business-list .item-box{
+	width: 260px;
+    background: #f4f6fd;
+    height: 260px;
+    border-radius: 50%;
+    border: 5px solid red;
+    outline: 5px solid #00000026;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.business-list .item-box img{
+	width: 260px;   
+    height: 260px;
+    object-fit: cover;
+	transition: transform 0.4s ease;
+}
+.business-list .item-box:hover img{
+	 transform: scale(1.1);
+}
+ 
+
+
+
+.business-list .title{
+	margin-bottom: 35px;
+	letter-spacing: 2px;
+}
+
+.business-list .box-container{
+	display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+ .business-list .box-container .items{
+    flex-basis: 25%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+
+.business-list .box-container .items a{
+   color: #333;
+} 
+
+ 
+
+.business-list .box-container .items a:hover{
+   color: #E8000B;
+   text-decoration: none;
+} 
+
+@media (max-width: 992px) {
+	.business-list .box-container{ 
+		justify-content: center; 
+		gap: 25px;
+		 
+	}
+}
 @media (max-width: 768px) {
 	.scrolltotop  {
 		display: none;
