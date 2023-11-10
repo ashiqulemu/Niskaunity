@@ -1217,7 +1217,7 @@ section {
 @media (max-width : 768px) {
 	.page-header-title {
 		font-size: 28px;
-		line-height: 0.9;
+		line-height: 1.4;
 	}
 }
 
@@ -8906,12 +8906,12 @@ video{
 .subListing {
 	padding: 50px 0;
 }
-.subListing .singleItems{
+.subListing .singleItems{ 
 	display: flex;
     padding: 14px;
-    /* border-radius: 11px; */
-    border-bottom: 1px solid #e7e4e4;
-    background: linear-gradient(277deg, rgba(255, 253, 220, 0.27), transparent);
+    border-bottom: 1px solid rgb(231, 228, 228);
+    background: linear-gradient(277deg, rgb(65 56 56 / 61%), rgb(65 58 58 / 48%));
+    color: #fff;
 }
 
 .subListing .singleItems .brand{
@@ -8929,15 +8929,18 @@ video{
     display: flex;
     flex-direction: column;
     justify-content: center;
-	padding-left: 15px;
+	padding:0 15px;
     border-right: 1px dashed #ddd2d2;
     border-left: 1px dashed #ddd2d2;
+	text-align: center;
 }
 
 .subListing .singleItems .middle .title{
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 1.4;
+	font-size: 30px;
+    font-weight: bold;
+    line-height:1.1;
+    color: #e8000b;
+	letter-spacing: 1px;
 }
 
 .subListing .singleItems .middle .subtitle{
@@ -8954,12 +8957,13 @@ video{
 
 .subListing .singleItems .right i{
 	color: #E8000B;
+	margin-right: 5px;
 }
 .subListing .singleItems .right .title{
-	font-size: 16px;  
+	font-size: 14px;  
 }
 .subListing .singleItems .right .subtitle{
-	font-size:16px;  
+	font-size:14px;  
 }
 
 
