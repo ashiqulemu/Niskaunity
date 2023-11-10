@@ -1,91 +1,18 @@
-/* --------------------------------------------------------------------
-* Template Master Stylesheet
-* 
-* Template:		Waldo - Responsive HTML5 Portfolio Website Template
-* Author:		Themetorium
-* URL:			http://themetorium.net
-*
-* Template main color (Yellow): #E8000B;
-* Template alternative color (Blue): #3498DB;
-* Global font family: 'Ubuntu Mono', Helvetica, Arial, sans-serif;
--------------------------------------------------------------------- */
+ 
+.d-flex{
+	display: flex;
+}
+.align-items-center{
+	align-items: center;
+}
+.justify-content-center{
+	justify-content: center;
+}
 
+.mx-auto{
+	margin: 0 auto;
+}
 
-/* Table of Content
-====================
-1. General
-2. Page preloader
-3. Body content section
-4. Content container
-5. Header
-6. Header attriputes
-7. Logo
-8. Menu
-9. Global search
-10. Top filter
-11. Sections
-12. Intro
-13. Headings
-14. Page header
-15. Isotope
-16. Portfolio list section
-17. Portfolio single info toggle
-18. Portfolio single gallery
-19. Portfolio single nav
-20. Portfolio projects carousel
-21. Gallery list section
-22. Gallery single section
-23. Blog list section
-24. Blog list nav
-25. Blog single
-26. Blog single nav
-27. Add to favorites button
-28. Blog sidebar
-29. Blog sidebar widgets
-30. Shop list section
-31. Shop product filter
-32. Shopping cart
-33. Shop single product
-34. Shop similar products
-35. Shop cart (page)
-36. Shop checkout (page)
-37. Thumbnail list
-38. Split box
-39. Team section
-40. Contact section
-41. Contact simple section
-42. Map section
-43. Search results section
-44. Page section
-45. Content carousel
-46. Clients carousel
-47. Magnific Popup
-48. YTPlayer
-49. Modal
-50. Modal share
-51. Pagination
-52. Load more
-53. Call to action section
-54. Blockquote
-55. Forms
-56. Checkboxes / Radio buttons (re-styled)
-57. Tabs
-58. Panels
-59. Accordion
-60. Tables
-61. Buttons
-62. Social buttons
-63. UI elements
-64. Footer
-65. Scroll down button
-66. Scroll to top button
-
-*/
-
-
-/* ------------------------------------------------------------- *
- *  General
-/* ------------------------------------------------------------- */
 
 .shadow-sm {
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
@@ -8998,7 +8925,7 @@ video{
 }
 
 .subListing .singleItems .middle{
-	flex: 4; 
+	flex: 1; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9021,8 +8948,12 @@ video{
 	display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: 2;
-	align-items: center;
+    flex:1; 
+	padding:0 15px;
+}
+
+.subListing .singleItems .right i{
+	color: #E8000B;
 }
 .subListing .singleItems .right .title{
 	font-size: 16px;  
@@ -9030,6 +8961,8 @@ video{
 .subListing .singleItems .right .subtitle{
 	font-size:16px;  
 }
+
+
 
  
 
