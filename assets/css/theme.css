@@ -14,7 +14,7 @@
 }
 
 .text-theme{
-	color: #E8000B;
+	color: #E8000B!important;
 }
 
 .shadow-sm {
@@ -1229,7 +1229,7 @@ section {
 	max-width: 500px;
     margin-top: 12px;
     line-height: 0;
-    background: #ffffff33;
+    background: #ffffffa8;
     padding: 10px;
     backdrop-filter: blur(4px);
     border-radius: 7px;
