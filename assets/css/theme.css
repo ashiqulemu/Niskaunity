@@ -13,6 +13,9 @@
 	margin: 0 auto;
 }
 
+.text-theme{
+	color: #E8000B;
+}
 
 .shadow-sm {
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
@@ -1201,7 +1204,7 @@ section {
 	display: inline;
     background-color: #ffffffbf;
     margin: 0;
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 400;
     color: #e8000b;
     line-height: 1.4;
@@ -3624,8 +3627,7 @@ section {
 }
 
 /* blog single meta */
-.blog-single-meta {
-	margin-left: 20px;
+.blog-single-meta { 
 	padding: 0 0 0 15px;
 	font-size: 14px;
 	color: #999;
@@ -3634,7 +3636,7 @@ section {
 	border-left: 1px dotted rgba(150, 150, 150, 0.18);
 }
 .blog-single-meta .article-author {
-	font-size: 17px;
+	font-size: 30px;
 	color: #333;
 }
 .blog-single-meta .article-author a {
@@ -8916,31 +8918,34 @@ video{
 
 .news-list .box-container .items{
 	width: 23.4%;
-    background: #d3d3d342;
-    padding: 10px;
+    background: #d3d3d342; 
 	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
 	transition: all 0.4s ease;
+	border: 1px solid transparent;
 }
 
  
 .news-list .box-container .items .item-box img{
 	width: 100%;
 	height: auto;
+	border: 5px solid #E8000B;
 }
 
 
 
 .news-list .box-container .items .title{
-	text-align: left;
-	font-weight: normal;
-	color: #333;
-	margin-top: 16px;
+	text-align: center;
+    font-weight: normal;
+    color: #333;
+    margin-top: 16px;
     margin-bottom: 0;
-	line-height: 1.4;
+    line-height: 1.4;
+    font-size: 2.3rem;
 }
 
 .news-list .box-container .items:hover {
-	background-color: #E8000B;
+	background-color: #333;
+	border: 1px solid transparent;
 }
 
 .news-list .box-container .items:hover .title{
@@ -8949,6 +8954,8 @@ video{
  
 .section-title{
 	margin: 50px 0;
+	letter-spacing: 2px;
+	font-size: 5rem;
 }
 
 
