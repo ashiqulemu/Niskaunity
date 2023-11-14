@@ -9,6 +9,18 @@
 	justify-content: center;
 }
 
+.py-5{
+	padding: 3rem 0!important;
+}
+.px-5{
+	 padding-left: 3rem!important;
+	 padding-right: 3rem!important;
+}
+
+.w-100{
+	width: 100%;
+}
+
 .mx-auto{
 	margin: 0 auto;
 }
@@ -9140,7 +9152,7 @@ video{
 
 .eventItems .dateTime{ 
     flex-basis: 100px;
-    background: #333;
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9153,21 +9165,30 @@ video{
     margin-bottom: 0;
 }
 .eventItems .photo{ 
-	height: 250px;
+	height: 260px;
 	flex-basis: 350px;
 }
 .eventItems .photo img{ 
-	height: 250px;
+	height: 100%;
 	width: 350px;
 	object-fit: cover;
 }
 .eventItems .infos{ 
-	flex: 1; 
+	flex: 2; 
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	padding: 25px;
 }
+.eventItems .details{ 
+	flex: 1; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25px;
+ 
+}
+
 .eventItems .infos .clock{ 
 	padding: 3px;
 	color: #fff;
@@ -9175,6 +9196,7 @@ video{
 }
 .eventItems .infos div{ 
 	width: 100%;
+	text-align: center;
 	
 }
 
@@ -9205,6 +9227,16 @@ video{
 @media (max-width: 992px) {
 	.news-list .box-container .items{
 		width: 31.3%;  
+	}
+	.eventItems {
+		flex-direction: column;
+	}
+	.eventItems .photo {
+		height: unset;
+		flex-basis: unset;
+	}
+	.eventItems .photo img{
+		width: 100%;
 	}
 }
 
