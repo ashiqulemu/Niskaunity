@@ -9132,6 +9132,10 @@ video{
     border: 1px solid #dddddd8c;
     border-radius: 8px;
     overflow: hidden;
+	transition: all 0.4s ease-in-out;
+}
+.eventItems:hover{
+	transform: translateY(-3px);
 }
 
 .eventItems .dateTime{ 
