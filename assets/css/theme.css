@@ -67,8 +67,9 @@ body {
 	text-align: center;
 }
 .btn-theme:hover{
-	background-color: #333; 
-	color: #fff;
+	background-color: #000; 
+	color: #d40000;
+	outline: 1px solid red;
 }
 
 a {
@@ -9199,12 +9200,71 @@ video{
 	text-align: center;
 	
 }
+.eventItems .infos div .title{ 
+	width: 100%;
+	text-align: center; 
+	color: #000;
+	font-size: 2.7rem;
+}
 
 .eventscontainer{
 	padding: 50px 0;
 }
 
- 
+.eventSchedule{
+	max-height: 355px;
+	overflow-y: auto;
+}
+
+.eventSchedule::-webkit-scrollbar{
+	background-color: #333;
+	width: 3px;
+}
+
+.eventSchedule::-webkit-scrollbar-thumb{
+  border-radius: 50px;
+  background: #E8000B; 
+}
+
+.event-single-details .title{
+	font-size: 4rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+	padding: 0 15px;
+}
+.event-status{
+	display: flex;
+    background: #212222;
+    padding: 15px; 
+}
+.event-status:not(:last-child){ 
+    border-bottom: 1px dashed grey;
+}
+.event-status .left{
+	flex: 1;
+	display: flex; 
+}
+.event-status .left .date{
+	flex: 1;
+	display: flex;
+	align-items: center;
+	padding:  0 10px;
+	justify-content: center;
+}
+.event-status .left .time{
+	flex: 1;
+	display: flex;
+    align-items: center;
+    border-left: 1px dashed #646464;
+    padding: 0 10px;
+	 
+}
+.event-status .right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 @media (max-width: 1230px) {
 	.news-list .box-container .items{
