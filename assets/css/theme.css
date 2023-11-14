@@ -8321,12 +8321,15 @@ label {
 /* Button social min */
 .btn-social-min {
 	position: relative;
-	width: 46px;
-	height: 46px;
-	line-height: 44px;
-	padding: 0 !important;
-	text-align: center;
-	font-size: 17px;
+    width: 100px;
+    height: 100px;
+    line-height: 44px;
+    padding: 0 !important;
+    text-align: center;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .btn-social-min.btn-xs { 
 	width: 26px;
