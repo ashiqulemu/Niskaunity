@@ -16,7 +16,10 @@
 	 padding-left: 3rem!important;
 	 padding-right: 3rem!important;
 }
-
+.mx-auto{
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
 .w-100{
 	width: 100%;
 }
