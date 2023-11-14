@@ -48,6 +48,17 @@ body {
 	color: #333;
 }
 
+.btn-theme{
+	background-color: red;
+	padding: 10px 15px;
+	color: #fff;
+	text-align: center;
+}
+.btn-theme:hover{
+	background-color: #333; 
+	color: #fff;
+}
+
 a {
 	color: #3498DB;
 }
@@ -9022,7 +9033,141 @@ video{
 	font-size:14px;  
 }
 
+.eventsArea{
+	background-image:linear-gradient(45deg, #6c5d5dde, #000000),url(../img/porfolio/portfolio-4.jpg);
+    background-size: 100%;
+    background-position: 75% 32%;
+    background-attachment: fixed;
+}
+.eventBar{
+	display: flex;
+}
+.eventBar .left{
+	flex: 1; 
+	padding: 12px 0;
+}
+.eventBar .left ul{
+	 list-style: none;
+	 padding: 0;
+    margin: 0;
+}
+.eventBar .left ul li{
+	float: left;
+    margin-right: 10px;
+}
+.eventBar .left ul li .event-item {
+    text-decoration: none;
+    min-height: 83px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: lightgray;
+	border-radius: 5px;
+	position: relative;
+	cursor: pointer;
+	margin: 10px 0;
+}
+ 
 
+
+.eventBar .left ul li .event-item.active {
+	background: #FF0000;
+}
+.eventBar .left ul li .event-item.active .year  {
+	color: #fff;
+}
+.eventBar .left ul li .event-item.active .month  {
+	color: #fff;
+}
+.eventBar .left ul li .event-item.active:after {
+	content: '';
+    border-left: 15px solid transparent;
+    border-right: 15px solid #36343400;
+    border-top: 15px solid #33333300;
+    border-bottom: 15px solid #000000;
+    position: absolute;
+    bottom: 0px; 
+}
+.eventBar .left ul li .event-item .year {
+    font-family: 'math';
+    color: #e8000b;
+}
+.eventBar .left ul li .event-item .month {
+	font-size: 2rem;
+    color: #333;
+}
+
+.eventBar .left ul li .event-item:hover  { 
+    background: red;
+}
+
+.eventBar .left ul li .event-item:hover  .year{ 
+   color: #fff;
+}
+
+.eventBar .left ul li .event-item:hover .month { 
+   color: #fff;
+}
+.eventBar .right{
+	flex-basis: 60px;
+}
+
+
+.eventItems{
+	display: flex;
+    margin: 15px 0;
+    box-shadow: -1px 1px 20px 0px #0000001c;
+    border: 1px solid #dddddd8c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.eventItems .dateTime{ 
+    flex-basis: 100px;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+	padding: 15px 0;
+}
+.eventItems .dateTime p{ 
+    margin-bottom: 0;
+}
+.eventItems .photo{ 
+	height: 250px;
+	flex-basis: 350px;
+}
+.eventItems .photo img{ 
+	height: 250px;
+	width: 350px;
+	object-fit: cover;
+}
+.eventItems .infos{ 
+	flex: 1; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 25px;
+}
+.eventItems .infos .clock{ 
+	padding: 3px;
+	color: #fff;
+	background: red;
+}
+.eventItems .infos div{ 
+	width: 100%;
+	
+}
+
+.eventscontainer{
+	padding: 50px 0;
+}
 
  
 
@@ -9073,6 +9218,30 @@ video{
 
  
 @media (max-width: 768px) {
+	.eventItems{
+		flex-direction: column;  
+	}
+	.eventscontainer {
+		padding: 20px 0;
+	}
+	.eventBar .left{
+		padding: 0 12px;
+	}
+	.eventItems .photo {
+		height: unset;
+		flex-basis: unset;
+	}
+	.eventItems .infos div {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.eventItems .photo img {
+		height: auto;
+		width: 100%;
+		object-fit: cover;
+	}
 	.singleItems{
 		flex-direction: column;
     align-items: center;
