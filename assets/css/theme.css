@@ -9043,7 +9043,7 @@ video{
 	display: flex;
 }
 .eventBar .left{
-	flex: 1; 
+	flex: 3; 
 	padding: 12px 0;
 }
 .eventBar .left ul{
@@ -9112,7 +9112,16 @@ video{
    color: #fff;
 }
 .eventBar .right{
-	flex-basis: 60px;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.eventBar .right input[type='date']{
+	color: red;
+    border: 1px solid;
+    padding: 3px 12px;
+	border-radius: 5px;
 }
 
 
@@ -9218,15 +9227,24 @@ video{
 
  
 @media (max-width: 768px) {
+	.eventBar{
+		flex-direction: column;
+		padding: 10px 0;
+	}
 	.eventItems{
 		flex-direction: column;  
 	}
+	 
 	.eventscontainer {
 		padding: 20px 0;
 	}
 	.eventBar .left{
 		padding: 0 12px;
+		text-align: center;
+		display: flex;
+		justify-content: center;
 	}
+	 
 	.eventItems .photo {
 		height: unset;
 		flex-basis: unset;
