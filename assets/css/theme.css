@@ -9360,15 +9360,15 @@ height: 100%;
     border-radius: 6px;
     font-size: 2.7rem;
 	cursor: pointer;
+	letter-spacing: 2px;
 }
 .selectAmount input:checked + label{
 	color: #fff;
-    background: black;
+    background: red;
     display: block;
 	padding:5px 15px;
     border-radius: 6px;
-    font-size: 2.7rem;
-    outline: 4px solid #e8000b;
+    font-size: 2.7rem; 
 }
 
 .contact-info .address{
