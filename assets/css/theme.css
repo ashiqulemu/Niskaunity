@@ -1,4 +1,4 @@
- 
+ @import "../css/stepForm.css";
 .d-flex{
 	display: flex;
 }
@@ -7412,7 +7412,7 @@ blockquote:before {
 }
 
 .form-control {
-	height: 48px;
+	height: 39px;
 	background-color: #FFF;
 	padding: 6px 12px;
 	font-size: 17px;
@@ -9329,6 +9329,48 @@ height: 100%;
     justify-content: space-evenly;
 }
 
+.selectAmount{
+	display: flex;
+	gap	:15px;
+	flex-wrap: wrap;
+}
+
+.selectAmount .items{
+	flex: 1;
+	 
+}
+.selectAmount .items input[type='number']{
+	font-size: 2rem!important;
+	padding: 0;
+	 
+}
+.selectAmount .items input[type='radio']{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+.selectAmount  label{
+	color: #d51212;
+    background: #d3d3d38a;
+    display: block;
+    padding:5px 15px;
+    border-radius: 6px;
+    font-size: 2.7rem;
+	cursor: pointer;
+}
+.selectAmount input:checked + label{
+	color: #fff;
+    background: black;
+    display: block;
+	padding:5px 15px;
+    border-radius: 6px;
+    font-size: 2.7rem;
+    outline: 4px solid #e8000b;
+}
+
 .contact-info .address{
 	width: 100%;
 }
@@ -9505,3 +9547,5 @@ height: 100%;
 
  
  
+
+
