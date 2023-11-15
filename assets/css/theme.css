@@ -9,6 +9,10 @@
 	justify-content: center;
 }
 
+.border-5{
+	border: 5px solid #E8000B;
+}
+
 .py-5{
 	padding: 3rem 0!important;
 }
@@ -8978,6 +8982,7 @@ video{
 	height: 300px;
     object-fit: cover;
     width: 100%;
+	border: 5px solid red;
 }
 .volunteer-list .box-container .items:hover{
 	 
@@ -9002,6 +9007,7 @@ video{
 .volunteer-list .box-container .items .bottom{
 padding: 15px;
 height: 100%;
+transition: all 0.4s ease;
 }
  
 .volunteer-list .box-container .items .bottom .decription{

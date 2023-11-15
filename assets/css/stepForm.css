@@ -6,12 +6,14 @@
 }
 #msform fieldset {
 	background: white;
-	border: 0 none;
-	border-radius: 3px;
-	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-	padding: 20px 30px;
-	box-sizing: border-box;
-	width: 100%; 
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 20px 0px rgb(0 0 0 / 8%);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    border: 1px solid #efefef;
 	
 	/*stacking fieldsets above each other*/
 	position: relative;
@@ -23,7 +25,7 @@
 /*inputs*/
 #msform input, #msform textarea {
 	padding: 9px;
-	border: 1px solid #ccc;
+	border: 1px solid #efefef;
 	border-radius: 3px;
 	margin-bottom: 10px;
 	width: 100%;
