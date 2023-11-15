@@ -26,7 +26,7 @@ $(".next").click(function(){
 			opacity = 1 - now;
 			current_fs.css({
         'transform': 'scale('+scale+')',
-        'position': 'relative'
+        'position': 'absolute'
       });
 			next_fs.css({'left': left, 'opacity': opacity});
 		}, 
