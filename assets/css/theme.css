@@ -9125,13 +9125,13 @@ transition: all 0.4s ease;
 	display: flex;
 }
 .eventBar .left{
-	flex: 3; 
-	padding: 12px 0;
+	width:100%;
+    padding: 12px 0;
 }
 .eventBar .left ul{
-	 list-style: none;
-	 padding: 0;
-    margin: 0;
+	list-style: none;
+    padding: 0;
+    margin: 0; 
 }
 .eventBar .left ul li{
 	float: left;
@@ -9139,6 +9139,7 @@ transition: all 0.4s ease;
 }
 .eventBar .left ul li .event-item {
     text-decoration: none;
+	min-width: 85px;
     min-height: 83px;
     display: block;
     display: flex;
@@ -9278,6 +9279,7 @@ transition: all 0.4s ease;
 
 .eventscontainer{
 	padding: 50px 0;
+	padding-top: 0;
 }
 
 .eventSchedule{
