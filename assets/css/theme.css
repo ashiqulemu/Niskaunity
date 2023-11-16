@@ -9417,7 +9417,7 @@ transition: all 0.4s ease;
 			flex-basis: 48%; 
 	}
 	.volunteer-list .box-container .items{
-		    flex-basis: 31.2%;
+		    flex-basis: 47.2%;
 	}
 	.contact-info {
 		text-align: center;
@@ -9462,6 +9462,9 @@ transition: all 0.4s ease;
 
  
 @media (max-width: 768px) {
+	.volunteer-list .box-container .items{
+		flex-basis: 100%;
+}
 	.business-list .box-container .items{
 		flex-basis: 46.7%;
 	}
