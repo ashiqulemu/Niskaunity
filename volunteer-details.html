@@ -124,7 +124,11 @@
 					<div class="menu-nav">
 						<ul class="menu-list">
 							<li class="has-children active">
-								<a href="./index.html" class="sub-menu-trigger">Home</a> 
+								<a href="./index.html" class="sub-menu-trigger">Home</a>
+								<!-- <ul class="sub-menu">
+										<li><a href="index.html">Home v.1</a></li>
+										<li><a href="index-2.html">Home v.2</a></li>
+									</ul> -->
 							</li>
 							<li class="has-children">
 								<a href="./news.html" class="sub-menu-trigger"> NEWS</a>
@@ -142,17 +146,17 @@
 								<a href="./gallery-single-2.html" class="sub-menu-trigger"> GALLERY</a>
 							</li>
 							<li class="has-children">
-								<a href="./contribute.html" class="sub-menu-trigger"> CONTRIBUTE</a>
+								<a href="#0" class="sub-menu-trigger"> CONTRIBUTE</a>
 							</li>
 							<li class="has-children">
 								<a href="#0" class="sub-menu-trigger">MERCHANDISE </a>
-							</li> 
+							</li>
 							<li class="has-children">
 								<a href="./about-us.html" class="sub-menu-trigger">ABOUT </a>
 							</li>
 							<li class="has-children">
 								<a href="./contact.html" class="sub-menu-trigger">CONTACT </a>
-							</li> 
+							</li>
 						</ul>
 					</div>
 					<!-- End menu nav -->
@@ -254,7 +258,7 @@
 
 					<!-- Begin page header caption -->
 					<div class="page-header-caption">
-						<h1 class="page-header-title">  VOLUNTEER </h1>
+						<h1 class="page-header-title">VOLUNTEER </h1>
 						<div class="page-header-sub-title-wrap">
 							<h2 class="page-header-sub-title no-bg  text-theme text-shadow line-height-1-2"> To submit
 								your story please send both the text and photos to
@@ -276,109 +280,120 @@
 			</section>
 			<!-- End page header -->
 
-			<section class="volunteer-list py-5  ">
-				<div class="container ">
-					<h1 class="text-center section-title text-theme">NISKAYUNA VOLUNTEER!</h1>
-					<div class="box-container">
-						<div class="items">
-							<a href="./volunteer-details.html">
-								<div class="item-box">
-									<img class="" src="./assets/img/team/1.jpg">
-								</div>
-								<div class="bottom">
-									<div class="title">
-										SHELLY BELLY & GUESTS
+			<section class="py-5  ">
+				<h1 class="text-center section-title text-theme">Your Gift Could Save a Life</h1>
+				<div class="container">
+					<div class="col-md-8">
+						<div class="card padding-top-20  padding-bottom-20">
+							 
+							<form id="msform">
+								<!-- progressbar -->
+								<ul id="progressbar">
+									<li class="active">Gift Amount</li>
+									<li>Billing</li>
+									<li>Payment</li>
+								</ul>
+								<!-- fieldsets -->
+								<fieldset style="position: relative;">
+									<br>
+									<p>
+										Most people are <span style="font-family: system-ui; color:red; font-weight: 600;">$100</span> right now. Every gift counts , please give what you can.
+									</p>
+									<div class="selectAmount"> 
+											<div class="items">
+												<input type="radio" name="amount" id="one">
+											    <label for="one">$1000 </label>
+											</div>
+											<div class="items">
+												<input type="radio" name="amount" id="two">
+											    <label for="two">$500 </label>
+											</div>
+											<div class="items">
+												<input type="radio" name="amount" id="three">
+											    <label for="three">$250 </label>
+											</div>
+											<div class="items">
+												<input type="radio" name="amount" id="four">
+											    <label for="four">$100 </label>
+											</div>
+											<div class="items">
+												<input type="radio" name="amount" id="five">
+											    <label for="five">$50 </label>
+											</div>
+											<div class="items">
+												<input type="number" placeholder="others">
+											</div>
 									</div>
-									<span class="decription">November 15th, 2023</span> <br>
-									<span class="decription">The Comedy Works </span> <br>
-									<span class="decription">Saratoga Springs, New York</span>
-								</div>
-							</a>
-						</div>
-						
-						<div class="items">
-							<a href="./volunteer-details.html">
-								<div class="item-box">
-									<img class="" src="./assets/img/team/3.jpg">
-								</div>
-								<div class="bottom">
-									<div class="title">
-										THE COMEDY WORKS ALL-STARS
 
+									<input type="button" name="next" class="next action-button" value="Next" />
+								</fieldset>
+								<fieldset style="position: relative;">
+									<div class="row">
+										<div class="col-md-6">
+											<input type="text" placeholder="First Name" />
+										</div>
+										<div class="col-md-6">
+											<input type="text" placeholder="Last Name" />
+										</div>
 									</div>
-									<span class="decription">November 15th, 2023</span> <br>
-									<span class="decription">The Comedy Works </span> <br>
-									<span class="decription">Saratoga Springs, New York</span>
-								</div>
-							</a>
-						</div>
-						<div class="items">
-							<a href="./volunteer-details.html">
-								<div class="item-box">
-									<img class="" src="./assets/img/team/4.jpg">
-								</div>
-								<div class="bottom">
-									<div class="title">
-										ANTHONY DEVITO & GUESTS
+									<div class="row">
+										<div class="col-md-6">
+											<input type="text" placeholder="Email" />
+										</div>
+										<div class="col-md-6">
+											<input type="text" placeholder="Appartment" />
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<input type="text" placeholder="City" />
+										</div>
+										<div class="col-md-6">
+											<select class="form-control">
+												<p>State</p>
+												<option value="">country 1</option>
+												<option value="">country 2</option>
+											</select>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-6">
+											<input type="text" placeholder="Address" />
+										</div>
+										<div class="col-md-6">
+											<input type="number" name="text" placeholder="Zip" />
+										</div>
+									</div>
 
-									</div>
-									<span class="decription">November 15th, 2023</span> <br>
-									<span class="decription">The Comedy Works </span> <br>
-									<span class="decription">Saratoga Springs, New York</span>
-								</div>
-							</a>
-						</div>
-						<div class="items">
-							<a href="./volunteer-details.html">
-								<div class="item-box">
-									<img class="" src="./assets/img/team/5.jpg">
-								</div>
-								<div class="bottom">
-									<div class="title">
-										ROBERT KELLY & GUESTS
-									</div>
-									<span class="decription">November 15th, 2023</span> <br>
-									<span class="decription">The Comedy Works </span> <br>
-									<span class="decription">Saratoga Springs, New York</span>
-								</div>
-							</a>
-						</div>
-						<div class="items">
-							<a href="./volunteer-details.html">
-								<div class="item-box">
-									<img class="" src="./assets/img/team/2.jpg">
-								</div>
-								<div class="bottom">
-									<div class="title">
-										ADRIENNE IAPALUCCI & GUESTS
-									</div>
-									<span class="decription">November 15th, 2023</span> <br>
-									<span class="decription">The Comedy Works </span> <br>
-									<span class="decription">Saratoga Springs, New York</span>
-								</div>
-							</a>
-						</div>
-						<div class="items">
-							<a href="./volunteer-details.html">
-								<div class="item-box">
-									<img class="" src="./assets/img/team/6.jpg">
-								</div>
-								<div class="bottom">
-									<div class="title">
-										JIM FLORENTINE & GUESTS
-									</div>
-									<span class="decription">November 15th, 2023</span> <br>
-									<span class="decription">The Comedy Works </span> <br>
-									<span class="decription">Saratoga Springs, New York</span>
-								</div>
-							</a>
-						</div>
+									<input type="button" name="previous" class="previous action-button"
+										value="Previous" />
+									<input type="button" name="next" class="next action-button" value="Next" />
+								</fieldset>
+								<fieldset style="position: relative;">
 
-
-
+									<input type="text" name="fname" placeholder="First Name" />
+									<input type="text" name="lname" placeholder="Last Name" />
+									<input type="text" name="phone" placeholder="Phone" />
+									<textarea name="address" placeholder="Address"></textarea>
+									<input type="button" name="previous" class="previous action-button"
+										value="Previous" />
+									<a href="#" class="submit action-button" target="_top">Submit</a>
+								</fieldset>
+							</form>
+						</div>
 					</div>
-
-
+					<div class="col-md-4">
+						<div class="card bg-white">
+							<img class="border-5" src="./assets/img/team/Donate-50-Oval-052716_0.jpg" class="img-responsive">
+							<p class="px-5 py-5 border text-justify">
+								For over 150 years, the ASPCA has worked tirelessly to put an end to animal abuse and
+								neglect. We are a national leader in the areas of rescue, adoption and welfare, and your
+								tax-deductible donation will help fight cruelty and make a life-changing difference for
+								animals across America. Thank you for making the ASPCA and the animals we serve a part
+								of your life.
+							</p>
+						</div>
+					</div>
 				</div>
 			</section>
 
@@ -500,17 +515,11 @@
 
 	<!-- Theme master JS -->
 	<script src="assets/js/theme.js"></script>
+	<script src="assets/js/stepForm.js"></script>
 
 
 
-	<!--==============================
-		///// Begin Google Analytics /////
-		============================== -->
 
-	<!-- Paste your Google Analytics code here. 
-		Go to http://www.google.com/analytics/ for more information. -->
-
-	<!-- End Google Analytics -->
 
 
 
