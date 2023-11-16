@@ -94,7 +94,7 @@
 		<!-- Begin logo
 			================ -->
 		<div id="logo">
-			<a href="./index.html">
+			<a href="index.html">
 				<img src="./assets/img/logo1.png" title="Home" alt="logo">
 				<!-- <span class="brand-logo">
 					NISKAUNITY 
@@ -124,7 +124,7 @@
 					<div class="menu-nav">
 						<ul class="menu-list">
 							<li class="has-children active">
-								<a href="./index.html" class="sub-menu-trigger">Home</a>
+								<a href="#0" class="sub-menu-trigger">Home</a>
 								<!-- <ul class="sub-menu">
 										<li><a href="index.html">Home v.1</a></li>
 										<li><a href="index-2.html">Home v.2</a></li>
@@ -137,7 +137,7 @@
 								<a href="./events.html" class="sub-menu-trigger"> EVENTS</a>
 							</li>
 							<li class="has-children">
-								<a href="./volunteer.html" class="sub-menu-trigger"> VOLUNTEER</a>
+								<a href="#0" class="sub-menu-trigger"> VOLUNTEER</a>
 							</li>
 							<li class="has-children">
 								<a href="./business.html" class="sub-menu-trigger"> BUSINESS</a>
@@ -152,10 +152,10 @@
 								<a href="#0" class="sub-menu-trigger">MERCHANDISE </a>
 							</li>
 							<li class="has-children">
-								<a href="./about-us.html" class="sub-menu-trigger">ABOUT </a>
+								<a href="#0" class="sub-menu-trigger">ABOUT </a>
 							</li>
 							<li class="has-children">
-								<a href="./contact.html" class="sub-menu-trigger">CONTACT </a>
+								<a href="#0" class="sub-menu-trigger">CONTACT </a>
 							</li>
 						</ul>
 					</div>
@@ -258,10 +258,10 @@
 
 					<!-- Begin page header caption -->
 					<div class="page-header-caption">
-						<h1 class="page-header-title">VOLUNTEER </h1>
+						<h1 class="page-header-title"> NISKAYUNA EVENTS!</h1>
 						<div class="page-header-sub-title-wrap">
 							<h2 class="page-header-sub-title no-bg  text-theme text-shadow line-height-1-2"> To submit
-								your story please send both the text and photos to
+								your event please send both the text and photos to
 								<a class=" text-theme" target="_top"
 									href="mailto:info@niskaunity.com "><u>info@niskaunity.com</u> </a>
 							</h2>
@@ -280,118 +280,110 @@
 			</section>
 			<!-- End page header -->
 
-			<section class="py-5  ">
-				<h1 class="text-center section-title text-theme">Your Gift Could Save a Life</h1>
-				<div class="container">
-					<div class="col-md-8">
-						<div class="card padding-top-20  padding-bottom-20">
-							 
-							<form id="msform">
-								<!-- progressbar -->
-								<ul id="progressbar">
-									<li class="active">Gift Amount</li>
-									<li>Billing</li>
-									<li>Payment</li>
-								</ul>
-								<!-- fieldsets -->
-								<fieldset style="position: relative;">
-									<br>
-									<p>
-										Most people are <span style="font-family: system-ui; color:red; font-weight: 600;">$100</span> right now. Every gift counts , please give what you can.
-									</p>
-									<div class="selectAmount"> 
-											<div class="items">
-												<input type="radio" name="amount" id="one">
-											    <label for="one">$1000 </label>
-											</div>
-											<div class="items">
-												<input type="radio" name="amount" id="two">
-											    <label for="two">$500 </label>
-											</div>
-											<div class="items">
-												<input type="radio" name="amount" id="three">
-											    <label for="three">$250 </label>
-											</div>
-											<div class="items">
-												<input type="radio" name="amount" id="four">
-											    <label for="four">$100 </label>
-											</div>
-											<div class="items">
-												<input type="radio" name="amount" id="five">
-											    <label for="five">$50 </label>
-											</div>
-											<div class="items">
-												<input type="number" placeholder="others">
-											</div>
-									</div>
+			<section class="eventSingleView py-5 ">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6 py-5 px-5">
 
-									<input type="button" name="next" class="next action-button" value="Next" />
-								</fieldset>
-								<fieldset style="position: relative;">
-									<div class="row">
-										<div class="col-md-6">
-											<input type="text" placeholder="First Name" />
-										</div>
-										<div class="col-md-6">
-											<input type="text" placeholder="Last Name" />
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6">
-											<input type="text" placeholder="Email" />
-										</div>
-										<div class="col-md-6">
-											<input type="text" placeholder="Appartment" />
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6">
-											<input type="text" placeholder="City" />
-										</div>
-										<div class="col-md-6">
-											<select class="form-control">
-												<p>State</p>
-												<option value="">country 1</option>
-												<option value="">country 2</option>
-											</select>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-6">
-											<input type="text" placeholder="Address" />
-										</div>
-										<div class="col-md-6">
-											<input type="number" name="text" placeholder="Zip" />
-										</div>
-									</div>
-
-									<input type="button" name="previous" class="previous action-button"
-										value="Previous" />
-									<input type="button" name="next" class="next action-button" value="Next" />
-								</fieldset>
-								<fieldset style="position: relative;">
-
-									<input type="text" name="fname" placeholder="First Name" />
-									<input type="text" name="lname" placeholder="Last Name" />
-									<input type="text" name="phone" placeholder="Phone" />
-									<textarea name="address" placeholder="Address"></textarea>
-									<input type="button" name="previous" class="previous action-button"
-										value="Previous" />
-									<a href="#" class="submit action-button" target="_top">Submit</a>
-								</fieldset>
-							</form>
+							<img src="./assets/img/business/10.jpg" class="img-responsive border-5">
 						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="card bg-white">
-							<img class="border-5" src="./assets/img/team/Donate-50-Oval-052716_0.jpg" class="img-responsive">
-							<p class="px-5 py-5 border text-justify">
-								For over 150 years, the ASPCA has worked tirelessly to put an end to animal abuse and
-								neglect. We are a national leader in the areas of rescue, adoption and welfare, and your
-								tax-deductible donation will help fight cruelty and make a life-changing difference for
-								animals across America. Thank you for making the ASPCA and the animals we serve a part
-								of your life.
-							</p>
+						<div class="col-md-6 py-5 px-5">
+							<div class="event-single-details">
+								<!-- <div class="title text-theme">
+									Steve Trevino
+								</div> -->
+								<p class=" text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iusto, amet ipsam dicta alias nemo quidem molestiae placeat nesciunt dolores nam, dolore quae quod aliquid!Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iusto, amet ipsam dicta alias nemo quidem molestiae placeat nesciunt dolores nam, dolore quae quod aliquid!Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iusto, amet ipsam dicta alias nemo quidem molestiae placeat nesciunt dolores nam, dolore quae quod aliquid!Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iusto, amet ipsam dicta alias nemo quidem molestiae placeat nesciunt dolores nam, dolore quae quod aliquid!Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iusto, amet ipsam dicta alias nemo quidem molestiae placeat nesciunt dolores nam, dolore quae quod aliquid!Lorem ipsum dolor sit amet consectetur adipisicing elit. </p><br>
+								<center>
+									<a href=""  class="btn-theme mx-auto">CLICK FOR MORE INFO </a>
+								</center> 
+								<!-- 
+								<div class="eventSchedule">
+									<div class="event-status">
+										<div class="left">
+											<div class="date text-theme">THU NOV 30</div>
+											<div class="time text-white">
+
+												08 PM <br>
+												SPECIAL EVENT
+
+											</div>
+										</div>
+										<div class="right">
+											<a href="" class="btn-theme">Buy Tickes!</a>
+										</div>
+									</div>
+									<div class="event-status">
+										<div class="left">
+											<div class="date text-theme"></div>
+											<div class="time text-white">
+
+												08 PM <br>
+												SPECIAL EVENT
+
+											</div>
+										</div>
+										<div class="right">
+											<a href="" class="btn-theme">Buy Tickes!</a>
+										</div>
+									</div>
+									<div class="event-status">
+										<div class="left">
+											<div class="date text-theme"></div>
+											<div class="time text-white">
+
+												08 PM <br>
+												SPECIAL EVENT
+
+											</div>
+										</div>
+										<div class="right">
+											<a href="" class="btn-theme">Buy Tickes!</a>
+										</div>
+									</div>
+									<div class="event-status">
+										<div class="left">
+											<div class="date text-theme">THU NOV 30</div>
+											<div class="time text-white">
+
+												08 PM <br>
+												SPECIAL EVENT
+
+											</div>
+										</div>
+										<div class="right">
+											<a href="" class="btn-theme">Buy Tickes!</a>
+										</div>
+									</div>
+									<div class="event-status">
+										<div class="left">
+											<div class="date text-theme"></div>
+											<div class="time text-white">
+
+												08 PM <br>
+												SPECIAL EVENT
+
+											</div>
+										</div>
+										<div class="right">
+											<a href="" class="btn-theme">Buy Tickes!</a>
+										</div>
+									</div>
+									<div class="event-status">
+										<div class="left">
+											<div class="date text-theme"></div>
+											<div class="time text-white">
+
+												08 PM <br>
+												SPECIAL EVENT
+
+											</div>
+										</div>
+										<div class="right">
+											<a href="" class="btn-theme">Buy Tickes!</a>
+										</div>
+									</div>
+								</div>  -->
+							</div>
 						</div>
 					</div>
 				</div>
@@ -407,39 +399,39 @@
 			========================
 			* Use class "fixed-footer" to enable fixed footer (no effect on small devices).
 			-->
-		<footer id="footer" class="fixed-footer bg-dark text-gray-2">
-			<div class="container">
-				<div class="row">
-
-					<div class="col-md-1"></div>
-					<div class="col-md-3">
-
-						<!-- Begin footer text -->
-						<div class="footer-text">
-							<u>WRITE US!</u> <br>
-							PO BOX 9301 <br>
-							NISKAYUNA, NY 12309 <br>
-						</div>
-						<!-- End footer text -->
-
-					</div> <!-- /.col -->
-
-					<div class="col-md-4  offset-md-3 text-center">
-
-						<!-- Begin footer logo -->
-						<div class="footer-logo  ">
-							<a href="index.html" class="brand">
-								<img src="assets/img/logo1.png" title="Home" alt="logo">
-
-							</a>
-							<!-- Begin social buttons -->
+			<footer id="footer" class="fixed-footer bg-dark text-gray-2">
+				<div class="container">
+					<div class="row">
+	
+						<div class="col-md-1"></div>
+						<div class="col-md-3">
+	
+							<!-- Begin footer text -->
+							<div class="footer-text"> 
+								<u>WRITE US!</u> <br>
+								PO BOX 9301 <br>
+								NISKAYUNA, NY 12309 <br>
+							</div>
+							<!-- End footer text -->
+	
+						</div> <!-- /.col -->
+	
+						<div class="col-md-4  offset-md-3 text-center">
+	
+							<!-- Begin footer logo -->
+							<div class="footer-logo  ">
+								<a href="index.html" class="brand">
+									<img src="assets/img/logo1.png" title="Home" alt="logo">
+									 
+								</a>
+									<!-- Begin social buttons -->
 							<div class="social-buttons margin-top-15">
 								<ul>
 									<li><a href="#" class="btn btn-primary btn-link" target="_blank"
 											title="Follow us on facebook"><i class="fab fa-facebook-f"></i></a></li>
 									<li><a href="#" class="btn btn-primary btn-link" target="_blank"
 											title="Follow us on instagram"><i class="fab fa-instagram"></i></a></li>
-
+	
 									<li><a href="#" class="btn btn-primary btn-link" target="_blank"
 											title="Follow us on youtube"><i class="fab fa-youtube"></i></a></li>
 								</ul>
@@ -448,35 +440,35 @@
 								Copyright 2023 - website by miles image <br>
 							</div>
 							<!-- End social buttons -->
+							</div>
+							<!-- End footer logo -->
+	
+						</div> <!-- /.col -->
+	
+						<div class="col-md-3">
+	
+							<div class="footer-text">
+								<h3><u>EMAIL US!</u></h3>
+								<a href="mailto:info@niskaunity.com" class="text-red" target="_top">info@niskaunity.com</a>
+							</div> 
+							<div class="copyright for-mobile">
+								Copyright 2023 - website by miles image <br>
+							</div>
+							<!-- Begin copyright -->
+							
+							<!-- End copyright -->
+	
 						</div>
-						<!-- End footer logo -->
-
-					</div> <!-- /.col -->
-
-					<div class="col-md-3">
-
-						<div class="footer-text">
-							<h3><u>EMAIL US!</u></h3>
-							<a href="mailto:info@niskaunity.com" class="text-red" target="_top">info@niskaunity.com</a>
-						</div>
-						<div class="copyright for-mobile">
-							Copyright 2023 - website by miles image <br>
-						</div>
-						<!-- Begin copyright -->
-
-						<!-- End copyright -->
-
-					</div>
-					<div class="col-md-1"></div>
-					<!-- /.col -->
-
-				</div> <!-- /.row -->
-			</div> <!-- /.container -->
-
-			<!-- Scroll to top button -->
-			<a href="#body-content" class="scrolltotop sm-scroll"></a>
-
-		</footer>
+						<div class="col-md-1"></div>
+						 <!-- /.col -->
+	
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+	
+				<!-- Scroll to top button -->
+				<a href="#body-content" class="scrolltotop sm-scroll"></a>
+	
+			</footer>
 		<!-- End footer -->
 
 
@@ -515,11 +507,20 @@
 
 	<!-- Theme master JS -->
 	<script src="assets/js/theme.js"></script>
-	<script src="assets/js/stepForm.js"></script>
 
+	<script>
+		var mycls = document.getElementsByClassName('event-item');
+		for (let i = 0; i <= mycls.length; i++) {
+			mycls[i].addEventListener("click", function (e) {
 
+				for (var j = 0; j < mycls.length; j++) {
+					mycls[j].classList.remove('active');
 
-
+				}
+				this.classList.add('active');
+			});
+		}
+	</script>
 
 
 
