@@ -899,6 +899,7 @@ p {
 /* global search trigger 
 ========================= */
 #global-search-trigger {
+	display: none;
 }
 #global-search-trigger .gst-icon {
 	position: relative;
