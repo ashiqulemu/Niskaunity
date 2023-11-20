@@ -40,6 +40,24 @@
 /* clear */
 .clear { clear: both !important; display: block !important; }
 
+
+.my-5{
+	margin:25px 0;
+}
+
+.mx-5{
+	margin: 0 25px;
+}
+
+.py-5{
+	padding:25px 0;
+}
+
+.px-5{
+	padding: 0 25px;
+}
+
+
 /* display */
 .block, .display-block { display: block !important; }
 .inline-block, .display-inline-block { display: inline-block !important; }
