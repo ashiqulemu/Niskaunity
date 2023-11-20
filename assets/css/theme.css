@@ -9791,6 +9791,12 @@ video {
 }
 
 @media (max-width: 992px) {
+
+	.mobile-adjust{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	
   .business-list .box-container .items {
     flex-basis: 48%;
   }
@@ -9833,9 +9839,11 @@ video {
   .news-list .box-container .items {
     width: 48%;
   }
+
 }
 
 @media (max-width: 768px) {
+	
   .volunteer-list .box-container .items {
     flex-basis: 100%;
   }
