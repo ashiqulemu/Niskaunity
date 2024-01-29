@@ -243,10 +243,9 @@ p {
 
 #logo {
   position: fixed;
-  margin-top: 2.8%;
-  left: 20px;
-  padding: 7px;
-  background: #ddddddbd;
+  margin-top: 0.8%;
+  left: 4px;
+  /* background: #ddddddbd; */
 }
 
 /* ------------------------------------------------------------- *
@@ -9907,7 +9906,7 @@ video {
     padding: 7px;
   }
   #logo img {
-    height: 33px;
+    height: 50px;
   }
   video {
     border-bottom: unset;
