@@ -8856,7 +8856,8 @@ select.input-sm {
  * Social buttons
 /* ------------------------------------------------------------- */
 
-.social-buttons {
+.social-buttons ul li:last-child {
+  display: none;
 }
 .social-buttons ul {
   margin: 0;
